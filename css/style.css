@@ -2,7 +2,7 @@
 /********* General CSS *********/
 /*******************************/
 body {
-    color: #797979;
+    color: #000000;
     background: #ef23ab;
     font-family: 'Montserrat', sans-serif;
 }
@@ -24,7 +24,7 @@ a {
 a:hover,
 a:active,
 a:focus {
-    color: #ef23ab;
+    color: #000000;
     outline: none;
     text-decoration: none;
 }
@@ -44,7 +44,7 @@ a:focus {
     font-weight: 600;
     letter-spacing: 1px;
     color: #ffffff;
-    background: #ef23ab;
+    background: #000000;
     border: 2px solid transparent;
     border-radius: 0;
     box-shadow: inset 0 0 0 50px #ef23ab;
@@ -258,13 +258,13 @@ a:focus {
     padding: 0;
 }
 
-.Hero .Hero-image {
+.hero .hero-image {
     position: relative;
     text-align: right;
     padding-right: 75px;
 }
 
-.Hero .Hero-image img {
+.hero .hero-image img {
     max-width: 80%;
     max-height: 80%;
 }
@@ -285,7 +285,7 @@ a:focus {
     margin-bottom: 15px;
 }
 
-.Hero .Hero-text h1 {
+.hero .hero-text h1 {
     color: #ffffff;
     font-size: 60px;
     font-weight: 700;
@@ -477,7 +477,7 @@ a:focus {
     margin: -45px 0 45px 0;
 }
 
-.About .col-lg-6 {
+.about .col-lg-6 {
     padding: 0;
 }
 
@@ -485,27 +485,27 @@ a:focus {
     margin-bottom: 30px;
 }
 
-.About .About-img {
+.about .About-img {
     position: relative;
     height: 100%;
 }
 
-.About .about-img img {
+.about .about-img img {
     position: relative;
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
 
-.About .about-content {
+.about .about-content {
     padding: 0 60px;
 }
 
-.About .about-text p {
+.about .about-text p {
     font-size: 16px;
 }
 
-.About .skills {
+.about .skills {
     margin-bottom: 30px;
 }
 
@@ -828,7 +828,7 @@ a:focus {
     font-size: 14px;
     font-weight: 600;
     color: #ffffff;
-    background: #ef23ab;
+    background: #000000;
     border: 2px solid transparent;
     border-radius: 0;
     box-shadow: inset 0 0 0 50px #ef23ab;
@@ -1076,7 +1076,7 @@ a:focus {
 
 .price .price-item.featured-item .price-action .btn {
     color: #ffffff;
-    background: #ef23ab;
+    background: #000000;
     box-shadow: inset 0 0 0 50px #ef23ab;
 }
 
@@ -1239,7 +1239,7 @@ a:focus {
     text-align: center;
 }
 
-.testimonial .testimonial-img {
+.Testimonial .Testimonial-img {
     position: relative;
     margin-bottom: 15px;
     z-index: 1;
@@ -1280,12 +1280,12 @@ a:focus {
     margin-bottom: 0;
 }
 
-.testimonial .owl-dots {
+.Testimonial .owl-dots {
     margin-top: 15px;
     text-align: center;
 }
 
-.testimonial .owl-dot {
+.Testimonial .owl-dot {
     display: inline-block;
     margin: 0 5px;
     width: 12px;
@@ -1294,7 +1294,7 @@ a:focus {
     background: rgba(256, 256, 256, .5);
 }
 
-.testimonial .owl-dot.active {
+.Testimonial .owl-dot.active {
     background: #ffffff;
 }
 
@@ -1309,18 +1309,18 @@ a:focus {
     background: #ef23ab;
 }
 
-.contact .container-fluid {
+.Contact .container-fluid {
     background: url(../img/contact.jpg) left center no-repeat;
     background-size: contain;
 }
 
-.contact .contact-form {
+.Contact .contact-form {
     position: relative;
     padding: 90px 0 90px 45px;
     background: #ef23ab;
 }
 
-.contact .contact-form input {
+.Contact .contact-form input {
     color: #ffffff;
     padding: 15px 0;
     background: none;
@@ -1329,7 +1329,7 @@ a:focus {
     border-bottom: 1px solid rgba(256, 256, 256, .5);
 }
 
-.contact .contact-form textarea {
+.Contact .contact-form textarea {
     color: #ffffff;
     height: 90px;
     padding: 15px 0;
@@ -1339,12 +1339,12 @@ a:focus {
     border-bottom: 1px solid rgba(256, 256, 256, .5);
 }
 
-.contact .contact-form .form-control::placeholder {
+.Contact .contact-form .form-control::placeholder {
     color: #ffffff;
     opacity: 1;
 }
 
-.contact .contact-form .form-control:-ms-input-placeholder,
+.Contact .contact-form .form-control:-ms-input-placeholder,
 .contact .contact-form .form-control::-ms-input-placeholder {
     color: #ffffff;
 }
@@ -1363,7 +1363,7 @@ a:focus {
     border-color: #ffffff;
 }
 
-.contact .help-block ul {
+.Contact .help-block ul {
     margin: 0;
     padding: 0;
     list-style-type: none;
@@ -1386,33 +1386,33 @@ a:focus {
 /*******************************/
 /*********** Blog CSS **********/
 /*******************************/
-.blog {
+.Blog {
     position: relative;
     width: 100%;
     padding: 45px 0 15px 0;
 }
 
-.blog .blog-item {
+.Blog .blog-item {
     position: relative;
     margin-bottom: 30px;
 }
 
-.blog .blog-img {
+.Blog .blog-img {
     position: relative;
     width: 100%;
     overflow: hidden;
 }
 
-.blog .blog-img img {
+.Blog .blog-img img {
     width: 100%;
     transition: .5s;
 }
 
-.blog .blog-item:hover img {
+.Blog .Blog-item:hover img {
     transform: scale(1.1);
 }
 
-.blog .blog-text {
+.Blog .blog-text {
     position: relative;
     padding: 30px;
     border-right: 1px solid rgba(0, 0, 0, .07);
@@ -1420,41 +1420,41 @@ a:focus {
     border-left: 1px solid rgba(0, 0, 0, .07);
 }
 
-.blog .blog-text h2 {
+.Blog .blog-text h2 {
     font-size: 25px;
     font-weight: 600;
 }
 
-.blog .blog-text p {
+.Blog .blog-text p {
     margin-bottom: 10px;
 }
 
-.blog .blog-item a.btn {
+.Blog .blog-item a.btn {
     margin-top: 10px;
     padding: 8px 15px;
 }
 
-.blog .blog-item a.btn i {
+.Blog .blog-item a.btn i {
     margin-left: 5px;
 }
 
-.blog .blog-meta {
+.Blog .blog-meta {
     position: relative;
     display: flex;
     margin-bottom: 15px;
 }
 
-.blog .blog-meta p {
+.Blog .blog-meta p {
     margin: 0 10px 0 0;
     font-size: 13px;
 }
 
-.blog .blog-meta i {
+.Blog .blog-meta i {
     color: #414141;
     margin-right: 5px;
 }
 
-.blog .blog-meta p:last-child {
+.Blog .blog-meta p:last-child {
     margin: 0;
 }
 
@@ -1465,7 +1465,7 @@ a:focus {
 .footer {
     position: relative;
     margin-top: 45px;
-    background: #ef23ab;
+    background: #000000;
 }
 
 .footer .container-fluid {
