@@ -1,2 +1,2 @@
-# My_Art_Folio
-This repository holds my artworks' portfolio pages.
+# My-Portfolio
+In this repository is a demo portfolio page of my works as an Artist.
