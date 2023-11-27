@@ -1300,27 +1300,27 @@ a:focus {
 
 
 /*******************************/
-/********* Contact CSS *********/
+/********* contact CSS *********/
 /*******************************/
 .contact {
     position: relative;
     width: 100%;
     margin: 45px 0;
-    background: #ef23ab;
+    background: #000000;
 }
 
-.Contact .container-fluid {
-    background: url(../img/contact.jpg) left center no-repeat;
+.contact .container-fluid {
+    background: url(../img/Contact.jpg) left center no-repeat;
     background-size: contain;
 }
 
-.Contact .contact-form {
+.contact .contact-form {
     position: relative;
     padding: 90px 0 90px 45px;
     background: #ef23ab;
 }
 
-.Contact .contact-form input {
+.contact .contact-form input {
     color: #ffffff;
     padding: 15px 0;
     background: none;
@@ -1329,7 +1329,7 @@ a:focus {
     border-bottom: 1px solid rgba(256, 256, 256, .5);
 }
 
-.Contact .contact-form textarea {
+.contact .contact-form textarea {
     color: #ffffff;
     height: 90px;
     padding: 15px 0;
@@ -1339,12 +1339,12 @@ a:focus {
     border-bottom: 1px solid rgba(256, 256, 256, .5);
 }
 
-.Contact .contact-form .form-control::placeholder {
+.contact .contact-form .form-control::placeholder {
     color: #ffffff;
     opacity: 1;
 }
 
-.Contact .contact-form .form-control:-ms-input-placeholder,
+.contact .contact-form .form-control:-ms-input-placeholder,
 .contact .contact-form .form-control::-ms-input-placeholder {
     color: #ffffff;
 }
@@ -1363,7 +1363,7 @@ a:focus {
     border-color: #ffffff;
 }
 
-.Contact .help-block ul {
+.contact .help-block ul {
     margin: 0;
     padding: 0;
     list-style-type: none;
@@ -1386,33 +1386,33 @@ a:focus {
 /*******************************/
 /*********** Blog CSS **********/
 /*******************************/
-.Blog {
+.blog {
     position: relative;
     width: 100%;
     padding: 45px 0 15px 0;
 }
 
-.Blog .blog-item {
+.blog .blog-item {
     position: relative;
     margin-bottom: 30px;
 }
 
-.Blog .blog-img {
+.blog .blog-img {
     position: relative;
     width: 100%;
     overflow: hidden;
 }
 
-.Blog .blog-img img {
+.blog .blog-img img {
     width: 100%;
     transition: .5s;
 }
 
-.Blog .Blog-item:hover img {
+.blog .blog-item:hover img {
     transform: scale(1.1);
 }
 
-.Blog .blog-text {
+.blog .blog-text {
     position: relative;
     padding: 30px;
     border-right: 1px solid rgba(0, 0, 0, .07);
@@ -1420,41 +1420,41 @@ a:focus {
     border-left: 1px solid rgba(0, 0, 0, .07);
 }
 
-.Blog .blog-text h2 {
+.blog .blog-text h2 {
     font-size: 25px;
     font-weight: 600;
 }
 
-.Blog .blog-text p {
+.blog .blog-text p {
     margin-bottom: 10px;
 }
 
-.Blog .blog-item a.btn {
+.blog .blog-item a.btn {
     margin-top: 10px;
     padding: 8px 15px;
 }
 
-.Blog .blog-item a.btn i {
+.blog .blog-item a.btn i {
     margin-left: 5px;
 }
 
-.Blog .blog-meta {
+.blog .blog-meta {
     position: relative;
     display: flex;
     margin-bottom: 15px;
 }
 
-.Blog .blog-meta p {
+.blog .blog-meta p {
     margin: 0 10px 0 0;
     font-size: 13px;
 }
 
-.Blog .blog-meta i {
+.blog .blog-meta i {
     color: #414141;
     margin-right: 5px;
 }
 
-.Blog .blog-meta p:last-child {
+.blog .blog-meta p:last-child {
     margin: 0;
 }
 
